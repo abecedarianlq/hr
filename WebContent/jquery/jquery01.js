@@ -1,0 +1,11 @@
+$(function(){
+	$("img").mousemove(function(){
+		$(this).attr("src","../images/2.jpg");
+	});
+	$("#show").click(function(){
+		$("img").attr("src");
+	});
+	$("#cencal").click(function(){
+		$("img").removeAttr("src");
+	});
+});
